@@ -1,0 +1,5 @@
+# Matrix with leading space, trailing whitespace, trailing \n, no \r, good matrix size.  Ans: 3 2 5 
+ 3 4
+ -20 55 -10 0 
+ -10 -10 50 200 
+ 30 -20 -10 0 

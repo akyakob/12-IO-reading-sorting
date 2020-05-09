@@ -1,0 +1,6 @@
+# Data length change in the middle
+# two lines of comments, Solution -1.7500,  -1.0000, 5.5000
+ 3 4 
+ 2        1            1            1 
+ 6                      2                          1                    -7  
+-2  2 1  7  	   

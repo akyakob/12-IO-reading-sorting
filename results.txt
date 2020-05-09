@@ -1,0 +1,105 @@
+Running tests ge0.txt ... ge12.txt
+Processing ge0.txt
+Solution x:
+  3.0000
+  2.0000
+  5.0000
+
+Processing ge1.txt
+Solution x:
+ -1.7500
+ -1.0000
+  5.5000
+
+Processing ge2.txt
+Solution x:
+ -1.7500
+ -1.0000
+  5.5000
+
+Processing ge3.txt
+Solution x:
+-75359.4043
+3932950.6078
+-56715807.3215
+358886419.5002
+-1159200690.8103
+2000559371.8266
+-1877105898.3692
+1396785824.9995
+-2046085292.8137
+2664101243.1343
+-1677500821.5579
+392383552.2631
+
+Processing ge4.txt
+gsl: lu.c:147: ERROR: matrix is singular
+Default GSL error handler invoked.
+Aborted (core dumped)
+Processing ge5.txt
+Error: Too many columns of data
+Processing ge6.txt
+Error: Too many rows
+Processing ge7.txt
+Solution x:
+ -1.7500
+ -1.0000
+  5.5000
+
+Processing ge8.txt
+Error: Too many columns of data
+Processing ge9.txt
+Error: Not enough columns of data
+Processing ge10.txt
+Error: Not enough columns of data
+Processing ge11.txt
+Error: Matrix must have at least 2 rows
+Processing ge12.txt
+Error: Not enough rows
+
+==265== Memcheck, a memory error detector
+==265== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==265== Using Valgrind-3.14.0.SVN and LibVEX; rerun with -h for copyright info
+==265== Command: ./hw12 -i rand.txt
+==265== 
+==265== error calling PR_SET_PTRACER, vgdb might block
+Processing rand.txt
+Solution x:
+  2.0102
+  4.4022
+  8.8571
+ -3.9543
+  1.7383
+  3.8313
+ -2.2633
+ -6.3819
+  0.0214
+ -1.2097
+ -7.1935
+ -1.2065
+ ... <removed>
+  2.5763
+ -1.6247
+ -0.7966
+  3.6507
+ -2.4413
+  3.7031
+ -2.0304
+ -1.2279
+ -1.2923
+ -4.8485
+  1.9809
+  5.3052
+  4.9998
+ -1.5538
+  0.6176
+
+==265== 
+==265== HEAP SUMMARY:
+==265==     in use at exit: 0 bytes in 0 blocks
+==265==   total heap usage: 1,020 allocs, 1,020 frees, 43,754,924 bytes allocated
+==265== 
+==265== All heap blocks were freed -- no leaks are possible
+==265== 
+==265== For counts of detected and suppressed errors, rerun with: -v
+==265== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

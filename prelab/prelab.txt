@@ -1,0 +1,42 @@
+prelab.txt
+
+1) For 1 and 2.2 it converted to kilometers but when I inputted my name it freaked out.
+
+1) After I added error checking to the scanf() function it still converted 1 and 2.2
+   successfully to kilometers and when I inputted my name it exited the program as expected.
+
+./lab_b.c hello world
+Program name: ./lab_b
+Command line arguments
+argv[0]: ./lab_b
+argv[1]: hello
+argv[2]: world
+
+./lab_c 
+not enough arguments
+
+./lab_c -1
+Entry needs to be greater than 2
+
+./lab_c 6
+     -49.9
+       2.1
+      26.5
+      30.2
+      39.7
+      49.2
+
+./lab_c 12
+     -49.9
+     -31.6
+     -28.0
+     -12.0
+       2.1
+      22.9
+      26.5
+      30.2
+      38.7
+      39.7
+      46.9
+      49.2
+

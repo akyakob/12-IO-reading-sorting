@@ -1,0 +1,48 @@
+exercise.txt
+
+scanf()
+4) It is malloced with MAX_STRING+1 so that the buffer size if 1 more than MAX_STRING 
+   because the last spot is always empty. Valgrind did not report errors
+
+sprintf()
+3) if string is more than 8 it freaks out 
+
+2) The output was correct for the first input but freaked out for  anything more than a length
+   of 7
+
+fgets()
+1) yes the output was what i expected since it read and printed exactly what was from the file
+./lab_f data.txt
+
+Read: '1 2 3'
+Read: '4    5 6    7     '
+Read: '8 9'
+Read: ''
+Read: ''
+Read: ''
+Read: ''
+
+VALGRIND OUTPUT
+==16116== Memcheck, a memory error detector
+==16116== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==16116== Using Valgrind-3.14.0 and LibVEX; rerun with -h for copyright info
+==16116== Command: ./lab_f data.txt
+==16116== 
+Read: '1 2 3'
+Read: '4    5 6    7     '
+Read: '8 9'
+Read: ''
+Read: ''
+Read: ''
+Read: ''
+==16116== 
+==16116== HEAP SUMMARY:
+==16116==     in use at exit: 0 bytes in 0 blocks
+==16116==   total heap usage: 2 allocs, 2 frees, 824 bytes allocated
+==16116== 
+==16116== All heap blocks were freed -- no leaks are possible
+==16116== 
+==16116== For counts of detected and suppressed errors, rerun with: -v
+==16116== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+
+

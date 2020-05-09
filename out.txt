@@ -1,0 +1,66 @@
+ge0.txt test
+Solution x:
+  3.0000
+  2.0000
+  5.0000
+ 
+ge1.txt test
+Solution x:
+ -1.7500
+ -1.0000
+  5.5000
+ 
+ge2.txt test
+Solution x:
+ -1.7500
+ -1.0000
+  5.5000
+ 
+ge3.txt test
+Solution x:
+-75359.4043
+3932950.6078
+-56715807.3215
+358886419.5002
+-1159200690.8103
+2000559371.8266
+-1877105898.3692
+1396785824.9995
+-2046085292.8137
+2664101243.1343
+-1677500821.5579
+392383552.2631
+ 
+ge4.txt test
+gsl: lu.c:147: ERROR: matrix is singular
+Default GSL error handler invoked.
+ 
+ge5.txt test
+
+Too many columns
+ 
+ge6.txt test
+Too many rows in file
+ 
+ge7.txt test
+Solution x:
+ -1.7500
+ -1.0000
+  5.5000
+ 
+ge8.txt test
+
+Too many columns
+ 
+ge9.txt test
+TOKEN NULL, no value for columns
+ 
+ge10.txt test
+
+Not enough columns, number of columns in file does not meet criteria
+ 
+ge11.txt test
+Not enough rows, needs to be >=2
+ 
+ge12.txt test
+Insufficient number of rows

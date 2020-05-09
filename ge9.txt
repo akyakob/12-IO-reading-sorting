@@ -1,0 +1,6 @@
+# Too many few columns of data on line 2 
+     3  
+  	-3    9	   	1   -5		
+	  -2		6		  0		-8		4
+	  -4		12		1		-9		
+	
